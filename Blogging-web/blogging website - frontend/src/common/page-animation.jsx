@@ -1,5 +1,5 @@
 import { animate, AnimatePresence, motion } from "framer-motion";
-
+//framer motion using for animation ccsda
 const AnimationWrapper = ({
   children,
   keyValue,
