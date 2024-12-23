@@ -82,7 +82,7 @@ server.post("/signup", (req,res) => {
     // return res.status(200).json({"status": "okay"})
 })
 
-//signin
+//signin process
 server.post("/signin", (req, res) => {
     let {email , password} = req.body;
 
@@ -102,7 +102,7 @@ server.post("/signin", (req, res) => {
                 return res.status(200).json(formateDatatoSend(user))
             }
         })
-        
+
     })
     .catch(err => {
         console.log(err);
