@@ -1,5 +1,5 @@
 import { animate, AnimatePresence, motion } from "framer-motion";
-
+//framer motion using for animation
 const AnimationWrapper = ({
   children,
   keyValue,
