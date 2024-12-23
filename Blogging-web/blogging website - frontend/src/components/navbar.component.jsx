@@ -1,3 +1,4 @@
+//navbar
 import {Link ,Outlet} from "react-router-dom";
 import logo from "../imgs/logo.png";
 import { useState } from "react";
