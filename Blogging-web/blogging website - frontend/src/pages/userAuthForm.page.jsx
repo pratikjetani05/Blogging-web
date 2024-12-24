@@ -3,7 +3,6 @@ import InputBox from "../components/input.component";
 import googleicon from "../imgs/google.png"
 import AnimationWrapper from "../common/page-animation";
 
-
 const UserAuthForm = ({type})=>{
     return(
         <AnimationWrapper keyValue={type}>
